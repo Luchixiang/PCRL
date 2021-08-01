@@ -8,11 +8,11 @@ TODO
 We will demonstrate how to use PCLR to pretrain on chest14(for 2D) and LUNA(for 3D) to pretrain the res18 and 3D unet.
 
 ### Dependency
-Please install PyTorch (1.1 or 1.4) before you run the code. We strongly recommend you to install Anaconda3 where we use Python 3.6.
+Please install PyTorch (1.1 or 1.4) before you run the code. We strongly recommend you to install Anaconda3 where we use Python 3.6. And we use apex for acceleration.
 
 ### Chest
 #### step 0
-> git clone ...
+> git clone https://github.com/Luchixiang/PCRL.git
 >cd PCRL/pytorch/
 
 #### pretrian
@@ -25,7 +25,7 @@ you can get the pretrained weight in the specific output dir.
 
 #### step 0
 
-> git clone ...
+> git clone https://github.com/Luchixiang/PCRL.git
 > cd PCLR/pytorch
 
 #### step 1
