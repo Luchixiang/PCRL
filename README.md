@@ -14,9 +14,9 @@ The image folder of Chest14 should look like this:
 ```.python
 ./Chest14
 	images/
-		00002639_006.png
-		00010571_003.png
-		...
+	00002639_006.png
+	00010571_003.png
+	...
 ```
 
 Besides, we also provide the list of training image in ``pytorch/train_val_txt/chest_train.txt``.
@@ -48,14 +48,13 @@ The image folder of LUNA16 should looks like this:
 
 ```python
 ./LUNA16
-	subset0
-  	1.3.6.1.4.1.14519.5.2.1.6279.6001.979083010707182900091062408058.raw
-	1.3.6.1.4.1.14519.5.2.1.6279.6001.979083010707182900091062408058.mhd
-	...
-  subset1
-  subset2
+	subset0		     		   	1.3.6.1.4.1.14519.5.2.1.6279.6001.979083010707182900091062408058.raw
+			1.3.6.1.4.1.14519.5.2.1.6279.6001.979083010707182900091062408058.mhd
   ...
-  subset9
+	subset1
+	subset2
+	...
+	subset9
 ```
 
 We also provide the list of training image in ``pytorch/train_val_txt/luna_train.txt``.
