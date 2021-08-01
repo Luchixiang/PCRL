@@ -18,6 +18,8 @@ Please download Chest X-rays from [this link](https://nihcc.app.box.com/v/ChestX
 
 > python main.py --data chest14_data_path --phase pretask --model pcrl --b 64 --epochs 240 --lr 1e-3 --output  pretrained_model_save_path --optimizer sgd --outchannel 3 --n chest --d 2 --gpus 0,1,2,3 --inchannel 3 --ratio 1.0 
 
+``chest14_data_path`` defines the path where you store Chest14.
+
 ### LUNA16
 
 #### Step 0
