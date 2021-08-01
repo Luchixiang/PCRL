@@ -16,7 +16,7 @@ The image folder of Chest14 should look like this:
 	images/
 		00002639_006.png
 		00010571_003.png
-	...
+		...
 ```
 
 Besides, we also provide the list of training image in ``pytorch/train_val_txt/chest_train.txt``.
