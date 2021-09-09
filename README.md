@@ -1,5 +1,5 @@
 # Preservational Self-supervised Learning
-This repo is the official implementation of "Preservational Learning Improves Self-supervised Medical Image Models byReconstructing Diverse Contexts". In this repo, we demonstrate how to use PCLR to conduct pre-training on NIH ChestX-ray14 (2D) and LUNA (3D). The employed backbones are ResNet-18 and 3D U-Net, respectively.
+This repo is the official implementation of "Preservational Learning Improves Self-supervised Medical Image Models by Reconstructing Diverse Contexts". In this repo, we demonstrate how to use PCLR to conduct pre-training on NIH ChestX-ray14 (2D) and LUNA (3D). The employed backbones are ResNet-18 and 3D U-Net, respectively. Note that this repo contains an improved version of our ICCV paper, which means it is possible to achieve higher results using codes in this repo. Also, we made some modifications, such as replacing the outer-product operation in transformation-conditioned attention with channel-wise multiplication, which results in more stable training results.
 ### Dependency
 Please install PyTorch (>=1.1) before you run the code. We strongly recommend you to install Anaconda3 where we use Python 3.6. In addition, we use [apex](https://github.com/NVIDIA/apex) for acceleration.	
 
